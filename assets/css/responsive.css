@@ -1,0 +1,549 @@
+/* Default: Mobile-First */
+@media (max-width: 390px) {
+    .card__image h6 {
+        display: initial;
+    }
+
+    #Banner__Home {
+        height: 90vh !important;
+    }
+
+    #marquee {
+        top: 33vh !important;
+    }
+
+    .top_mentor_slider {
+        height: 60vh !important;
+    }
+
+    .Creoo_Events_slider {
+        height: 65vh !important;
+    }
+
+    .videos__section {
+        padding: 0px 20px;
+        padding-top: 42px;
+        padding-bottom: 54px;
+    }
+
+    .Creoo__Courses .slider_course_box .box_course {
+        max-width: 330px !important;
+    }
+
+    .videos__section .video__slider__wrapper {
+        height: 57vh !important;
+    }
+
+    .Creoo__Bundels .wrapper .Benefits_wrap .Benefits__box figure {
+        max-width: 360px;
+        height: 175px;
+    }
+
+    #accordion__second__wrapper .Creoo_Events {
+        padding-top: 42px;
+    }
+
+    #accordion__second__wrapper .tool_cards {
+        padding-top: 42px;
+    }
+}
+
+/* Small Phones */
+@media (max-width: 767px) {
+    .Creoo__Courses .slider_course_box .box_course .flex_box {
+        margin-bottom: 55px;
+        display: grid;
+    }
+
+    .Creoo__Courses .slider_course_box .box_course .flex_box .inner_details h4 {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .Creoo__Courses .slider_course_box .box_course .flex_box .inner_details p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .Creoo__Courses .slider_course_box .box_course .flex_box .inner_details_img span {
+        font-size: 16px;
+    }
+
+    .Creoo__Courses .title h6 {
+        font-size: 22px;
+        line-height: 26px;
+        padding-bottom: 12px;
+    }
+
+    .Creoo__Courses .title p {
+        font-size: 16px;
+        line-height: 22px;
+        padding-bottom: 12px;
+    }
+
+    .Creoo__Courses {
+        padding: 0px 20px;
+        padding-top: 24px;
+    }
+
+    .Creoo__Bundels .wrapper .Benefits_wrap .Benefits__box figure {
+        margin-top: 50px;
+    }
+
+    .Creoo__Bundels .wrapper .Benefits_wrap .Benefits__box .details h6 {
+        position: absolute;
+        top: 5%;
+    }
+
+    .Creoo__Bundels .wrapper .Benefits_wrap .Benefits__box {
+        display: grid;
+        gap: 0;
+        position: relative;
+        padding: 12px;
+        padding-bottom: 24px;
+    }
+
+    .Creoo__Bundels .wrapper .Benefits_wrap .Benefits__box .details ul li::before {
+        left: -10%;
+    }
+
+    .Creoo__Bundels .wrapper .Benefits_wrap .Benefits__box .details ul li {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .Creoo__Bundels .wrapper {
+        padding: 0px 20px;
+    }
+
+    .highlights__box .card__image figure {
+        margin-top: 12px;
+    }
+
+    .Creoo__Bundels .wrapper .title h6 {
+        padding-bottom: 0;
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .card__image h6 {
+        display: initial;
+    }
+
+    .highlights__box .details_list h6 {
+        display: none;
+    }
+
+    .highlights__box .details_list ul li::before {
+        left: -10%;
+    }
+
+    .highlights__box .details_list ul li {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .highlights__box {
+        display: grid;
+        padding: 20px;
+    }
+
+    .details_list {
+        order: 2;
+    }
+
+    #accordion__second__wrapper .Creoo_Events .title h3 {
+        color: #0D0E0E;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 26px;
+        padding-bottom: 12px;
+    }
+
+    #accordion__second__wrapper .Creoo_Events .title p {
+        margin: 0;
+        padding-bottom: 32px;
+        font-size: 16px;
+        line-height: 22px;
+        padding-bottom: 18px;
+    }
+
+    #accordion__second__wrapper .Checklists .check__list ul li::before {
+        left: -30px;
+        width: 16px;
+        height: 16px;
+        top: 5px;
+    }
+
+    .Creoo_Events_slider {
+        height: 50vh;
+    }
+
+    .Creoo_Events_slider .next-arrow {
+        right: 58% !important;
+        bottom: -2% !important;
+    }
+
+    #accordion__second__wrapper .Creoo_Events .Creoo_Events_slider .custom-arrow {
+        background: transparent;
+        border: none;
+        position: absolute;
+        bottom: -2%;
+        z-index: 10;
+        right: 32%;
+    }
+
+    #accordion__second__wrapper .Checklists .check__list ul {
+        padding-left: 30px;
+    }
+
+    #accordion__second__wrapper .Checklists .check__list ul li {
+        padding-bottom: 12px;
+    }
+
+    #accordion__second__wrapper .list_1 ul li::before {
+        width: 18px;
+        height: 18px;
+        left: -30px;
+        background-size: cover;
+    }
+
+    #accordion__second__wrapper .list_1 ul {
+        padding-left: 30px;
+    }
+
+    #accordion__second__wrapper .list_1 ul li {
+        padding-bottom: 16px;
+    }
+
+    #accordion__second__wrapper .Checklists .title h3 {
+        margin: 0;
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 22px;
+        padding-bottom: 12px;
+    }
+
+    #accordion__second__wrapper .Checklists .title p {
+        margin: 0;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 22px;
+        padding-bottom: 12px;
+    }
+
+    #accordion__second__wrapper .grid__card {
+        display: grid;
+        gap: 12px;
+    }
+
+    #accordion__second__wrapper .tool_cards .card__one {
+        margin-bottom: 12px;
+    }
+
+    #accordion__second__wrapper .Checklists {
+        padding-top: 47px;
+    }
+
+    #accordion__second__wrapper .questions_mentor .title h3 {
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 26px;
+        padding-bottom: 12px;
+    }
+
+    #accordion__second__wrapper .questions_mentor .title p {
+        margin: 0;
+        font-size: 16px;
+        line-height: 22px;
+        padding-bottom: 12px;
+    }
+
+    #accordion__second__wrapper .top_mentor .top_mentor_slider .card__slider {
+        max-width: 232px;
+        min-height: 348px;
+    }
+
+    #accordion__second__wrapper .top_mentor .top_mentor_slider .card__slider figure {
+        text-align: center;
+        width: 224px;
+        height: 150px;
+    }
+
+    #accordion__second__wrapper .top_mentor .top_mentor_slider .card__slider .details {
+        padding: 12px;
+    }
+
+    .top_mentor_slider .slick-slide {
+        width: 240px !important;
+    }
+
+    .top_mentor_slider {
+        height: 44vh;
+    }
+
+    #accordion__second__wrapper .top_mentor .top_mentor_slider .prev-arrow {
+        bottom: -4%;
+        right: 40%;
+    }
+
+    #accordion__second__wrapper .top_mentor .top_mentor_slider .next-arrow {
+        bottom: -4%;
+        left: -8%;
+    }
+
+    #accordion__second__wrapper .top_mentor .title p {
+        font-size: 16px;
+        line-height: 22px;
+        padding-bottom: 24px;
+    }
+
+    .floating {
+        display: none;
+    }
+
+    #accordion__second__wrapper .top_mentor .title h3 {
+        font-size: 22px;
+        padding-bottom: 12px;
+    }
+
+    #accordion__second__wrapper .top_mentor .title {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .hero {
+        height: auto;
+    }
+
+    .avatar {
+        width: 136px;
+        height: 140px;
+    }
+
+    #marquee {
+        top: 25vh;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .hero h1 span {
+        font-weight: 400;
+    }
+
+    #marquee ul li span {
+        font-size: 80px;
+    }
+
+    .wrapper__main__for__home .top_Companies ul {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        row-gap: 12px;
+        column-gap: 20px;
+    }
+
+    .wrapper__main__for__home .top_Companies ul li {
+        margin: auto;
+    }
+
+    .wrapper__main__for__home .top_Companies ul li figure {
+        width: 70px;
+        height: 36px;
+    }
+
+    #Banner__Home {
+        height: 70vh !important;
+    }
+
+    .top__Companies__box {
+        padding: 20px 23px;
+        margin-top: -260px;
+        margin-bottom: 42px;
+    }
+
+    .top__Companies__box h6 {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .top__Companies__box p {
+        font-size: 16px;
+    }
+
+    .wrapper__main__for__home .top_Companies .title h6 {
+        font-size: 22px;
+    }
+
+    .wrapper__main__for__home .Accordion__wrapper__home {
+        padding-top: 72px;
+    }
+
+    .wrapper__main__for__home .accordion-header {
+        font-size: 24px;
+    }
+
+    .wrapper__main__for__home .accordion-header {
+        padding: 22px;
+    }
+
+    .wrapper__main__for__home .accordion-header .arrow img {
+        width: 42px;
+    }
+
+    .wrapper__main__for__home .accordion-item {
+        margin-bottom: 14px;
+    }
+
+    .floating {
+        display: none;
+    }
+
+    .wrapper__main__for__home #accordion__second__wrapper {
+        padding: 20px;
+        padding-bottom: 0;
+        padding-top: 24px;
+    }
+
+    .Creoo__Courses .slider_course_box .box_course {
+        max-width: 365px;
+    }
+
+    .videos__section .video__slider__wrapper {
+        height: 45vh;
+    }
+
+    .videos__section {
+        padding-bottom: 10px;
+    }
+}
+
+/* Large Phones */
+/* Tablets */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .top_mentor_slider .slick-slide {
+        margin: 0 10px;
+    }
+
+    .Creoo__Bundels .wrapper .Benefits_wrap .Benefits__box {
+        display: grid;
+    }
+
+    .avatar {
+        width: 137px;
+        height: 140px;
+    }
+
+    .wrapper__main__for__home #accordion__second__wrapper {
+        padding: 20px;
+        padding-bottom: 0;
+    }
+
+    .hero {
+        height: auto;
+    }
+
+    .Creoo__Courses {
+        padding: 0px 20px;
+        padding-top: 52px;
+    }
+
+    .floating {
+        display: none;
+    }
+
+    #Banner__Home {
+        height: 45vh;
+    }
+
+    #marquee ul li span {
+        font-size: 80px;
+    }
+
+    #marquee {
+        top: 20vh;
+    }
+
+    .wrapper__main__for__home .top_Companies ul {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        row-gap: 12px;
+        column-gap: 20px;
+    }
+
+    .wrapper__main__for__home .top_Companies ul li figure {
+        width: 70px;
+        height: 36px;
+    }
+
+    .wrapper__main__for__home .top_Companies ul li {
+        margin: auto;
+    }
+}
+
+/* Small Laptops */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .hero {
+        height: auto;
+    }
+
+    .floating {
+        display: none;
+    }
+
+    #Banner__Home {
+        height: 38vh;
+    }
+
+    #marquee ul li span {
+        font-size: 120px;
+    }
+
+    #marquee {
+        top: 16vh;
+    }
+
+    .wrapper__main__for__home .top_Companies ul li figure {
+        width: 85px;
+        height: 65px;
+    }
+}
+
+/* Desktops */
+@media(max-width: 1228.80px) {
+    #Banner__Home {
+        height: 90vh;
+    }
+
+    #marquee {
+        position: absolute;
+        top: 42vh;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1280) {
+    .floating {
+        display: none;
+    }
+}
+
+/* Large Screens / Smart Displays */
+@media (max-width: 1366px) {
+    .floating {
+        display: none;
+    }
+
+    .hero {
+        height: auto;
+    }
+
+    #Banner__Home {
+        height: 35vh;
+    }
+
+    #marquee {
+        position: absolute;
+        top: 15vh;
+    }
+}

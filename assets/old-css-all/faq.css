@@ -1,0 +1,98 @@
+
+.faq_text .Amount{
+    display: inline-flex;
+}
+.faq_text .Amount input{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    resize: none;
+    overflow: hidden;
+}
+.faq_text .Amount i{
+    position: absolute;
+    right: 12px;
+    top: 10px;
+    rotate: 90deg;
+    color: #7532BD;
+}
+.faq_according{
+    margin-top: 42px;
+    margin-bottom: 52px;
+}
+.faq_according .accordion-button{
+    background-color: #F5F5F5;
+    color: var(--black2);
+    font-weight: 500;
+    font-size: 18px;
+}
+.faq_according .accordion-body p{
+    color: var(--black2);
+    font-weight: 400;
+    font-size: 18px;
+}
+.faq_according .accordion-item{
+    border: none;
+}
+.faq_according .accordion-button{
+    background-color: #F5F5F5;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    border-top-left-radius: 8px !important;
+    border-top-right-radius: 8px !important;
+    border-bottom-left-radius: 8px !important;
+    border-bottom-right-radius: 8px !important;
+    box-shadow: none;
+}
+.faq_according .accordion-body{
+    padding: 21px 24px;
+}
+.accordion-button::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-plus' viewBox='0 0 16 16'%3E%3Cpath d='M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z'/%3E%3C/svg%3E");
+    transition: all 0.5s;
+    width: 16px !important;
+    height: 16px !important;
+  }
+  .accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-dash' viewBox='0 0 16 16'%3E%3Cpath d='M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z'/%3E%3C/svg%3E");
+  }
+  .accordion-button::after {
+    transition: all 0.5s;
+  }
+  .faq_question{
+     padding: 32px;
+     background-color: #F7F0FF;
+     text-align: center;
+     border-radius: 24px;
+     margin-bottom: 85px;
+  }
+  .faq_question input{
+    border: 1px solid #5400AE !important;
+    background-color: unset !important;
+    width: 52% !important;
+    margin: 0 auto;
+    margin-top: 24px;
+    margin-bottom: 22px;
+  }
+  .faq_question button{
+    background-color: #5400AE;
+    font-weight: 600;
+  }
+  .faq_question h5{
+    font-size: 22px;
+    font-weight: 500;
+    color: var(--black2);
+  }
+  .faq_question h6 span{
+    color: var(--black2);
+  }
+  @media(max-width:575px){
+    .faq_text .Amount input{
+        width: unset;
+        margin-bottom: 8px;
+    }
+    .faq_question input {
+        width: 70% !important;
+    }
+  }

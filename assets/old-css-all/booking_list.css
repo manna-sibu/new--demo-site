@@ -1,0 +1,129 @@
+.booking_list_main{
+    width: 100%;
+}
+.booking_list_group .uc_box{
+    background-color: #F9F9F9;
+    border: none !important;
+    padding: 6px !important;
+    border-radius: 8px;
+}
+.booking_list_group .booking_list_group_item{
+    background-color: var(--white);
+    border-radius: 8px;
+    padding: 12px;
+}
+.booking_list_group .heading33{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600 !important;
+    color: var(--black);
+    margin: 0;
+}
+.booking_inner_title{
+    border-bottom: solid 1px var(--title-border);
+}
+
+.booking_list_group_item{
+    display: flex;
+    gap: 12px;
+}
+.booking_list_group_item .list_img img{
+    width: 90px;
+    height: 90px;
+    border-radius: 8px;
+}
+.booking_list_group .list_text .student_list_text{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+}
+.booking_list_group .more_btn{
+    top: 8px !important;
+    right: 10px !important;
+    width: 16px;
+    height: 16px;
+    font-size: 16px;
+}
+.booking_list_group .more_btn i{
+    font-size: 16px;
+    color: #5400AE;
+}
+.booking_list_group .student_list_text h3{
+    padding-top: 0;
+}
+.booking_list_group .student_list_text h5{
+    font-size: 18px;
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6px;
+}
+.booking_list_group .student_list_text h5 i{
+    color: #FBBC04;
+    font-size: 16px;
+}
+.time_analyst{
+    display: flex;
+    gap: 8px;
+    margin-top: 12px;
+}
+.time_analyst img{
+    width: 24px !important;
+    height: 24px !important;
+}
+.time_analyst h6{
+    font-size: 18px;
+    font-weight: 400;
+}
+.time_analyst h6 span{
+    font-weight: 600;
+    color: var(--text-color);
+}
+.booking_list_para{
+    padding: 12px;
+}
+.booking_list_para p{
+    color: var(--black2);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: var(--font-secondary);
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    margin-bottom: 0;
+}
+.booking_list_para button{
+    background-color: #5400AE;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: var(--font-secondary);
+    margin-top: 22px;
+}
+@media(max-width:1024px){
+    .booking_list_group_item .list_img img{
+        height: auto;
+    }
+    .time_analyst {
+        margin-top: 8px;
+    }
+}
+@media(max-width:992px){
+    .booking_list_group_item .list_img img{
+        height: auto;
+    }
+    .time_analyst {
+        margin-top: 8px;
+    }
+}
+@media(max-width:575px){
+    .booking_list_group_item .list_img img{
+        height: auto;
+    }
+    .time_analyst {
+        margin-top: 8px;
+    }
+}
