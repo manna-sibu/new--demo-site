@@ -510,23 +510,25 @@
     }
 }
 
-/* Desktops */
-@media(max-width: 1228.80px) {
-    #Banner__Home {
-        height: 90vh;
-    }
-
-    #marquee {
-        position: absolute;
-        top: 42vh;
-    }
-}
-
 @media (min-width: 1200px) and (max-width: 1280) {
     .floating {
         display: none;
     }
 }
+
+/* Desktops */
+@media(max-width: 1228.80px) {
+    #Banner__Home {
+        height: 90vh !important;
+    }
+
+    #marquee {
+        position: absolute;
+        top: 42vh !important;
+    }
+}
+
+
 
 /* Large Screens / Smart Displays */
 @media (max-width: 1366px) {
